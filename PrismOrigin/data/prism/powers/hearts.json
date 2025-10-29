@@ -1,0 +1,184 @@
+{
+   "type": "origins:multiple",
+   "hidden": true,
+
+   "heart10": {
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+           "attribute": "minecraft:generic.max_health",
+           "operation": "addition",
+           "value": 0,
+           "name": "Increased health"
+	},
+	"tick_rate": 20,
+	   "hidden": true,
+	"condition": {
+	   "type": "origins:resource",
+	   "resource": "prism:resourcehearts",
+	   "comparison": "==",
+	   "compare_to": 10
+	}
+   },
+
+   "heart9": {
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+           "attribute": "minecraft:generic.max_health",
+           "operation": "addition",
+           "value": -2,
+           "name": "Increased health"
+	},
+	"tick_rate": 20,
+	   "hidden": true,
+	"condition": {
+	   "type": "origins:resource",
+	   "resource": "prism:resourcehearts",
+	   "comparison": "==",
+	   "compare_to": 9
+	}
+   },
+
+   "heart8": {
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+           "attribute": "minecraft:generic.max_health",
+           "operation": "addition",
+           "value": -4,
+           "name": "Increased health"
+	},
+	"tick_rate": 20,
+	   "hidden": true,
+	"condition": {
+	   "type": "origins:resource",
+	   "resource": "prism:resourcehearts",
+	   "comparison": "==",
+	   "compare_to": 8
+	}
+   },
+
+   "heart7": {
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+           "attribute": "minecraft:generic.max_health",
+           "operation": "addition",
+           "value": -6,
+           "name": "Increased health"
+	},
+	"tick_rate": 20,
+	   "hidden": true,
+	"condition": {
+	   "type": "origins:resource",
+	   "resource": "prism:resourcehearts",
+	   "comparison": "==",
+	   "compare_to": 7
+	}
+   },
+
+   "heart6": {
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+           "attribute": "minecraft:generic.max_health",
+           "operation": "addition",
+           "value": -8,
+           "name": "Increased health"
+	},
+	"tick_rate": 20,
+	   "hidden": true,
+	"condition": {
+	   "type": "origins:resource",
+	   "resource": "prism:resourcehearts",
+	   "comparison": "==",
+	   "compare_to": 6
+	}
+   },
+
+   "heart5": {
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+           "attribute": "minecraft:generic.max_health",
+           "operation": "addition",
+           "value": -10,
+           "name": "Increased health"
+	},
+	"tick_rate": 20,
+	   "hidden": true,
+	"condition": {
+	   "type": "origins:resource",
+	   "resource": "prism:resourcehearts",
+	   "comparison": "==",
+	   "compare_to": 5
+	}
+   },
+
+   "heart4": {
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+           "attribute": "minecraft:generic.max_health",
+           "operation": "addition",
+           "value": -12,
+           "name": "Increased health"
+	},
+	"tick_rate": 20,
+	   "hidden": true,
+	"condition": {
+	   "type": "origins:resource",
+	   "resource": "prism:resourcehearts",
+	   "comparison": "==",
+	   "compare_to": 4
+	}
+   },
+
+   "heart3": {
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+           "attribute": "minecraft:generic.max_health",
+           "operation": "addition",
+           "value": -14,
+           "name": "Increased health"
+	},
+	"tick_rate": 20,
+	   "hidden": true,
+	"condition": {
+	   "type": "origins:resource",
+	   "resource": "prism:resourcehearts",
+	   "comparison": "==",
+	   "compare_to": 3
+	}
+   },
+
+   "heart2": {
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+           "attribute": "minecraft:generic.max_health",
+           "operation": "addition",
+           "value": -16,
+           "name": "Increased health"
+	},
+	"tick_rate": 20,
+	   "hidden": true,
+	"condition": {
+	   "type": "origins:resource",
+	   "resource": "prism:resourcehearts",
+	   "comparison": "==",
+	   "compare_to": 2
+	}
+   },
+
+   "heart1": {
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+           "attribute": "minecraft:generic.max_health",
+           "operation": "addition",
+           "value": -18,
+           "name": "Increased health"
+	},
+	"tick_rate": 20,
+	   "hidden": true,
+	"condition": {
+	   "type": "origins:resource",
+	   "resource": "prism:resourcehearts",
+	   "comparison": "==",
+	   "compare_to": 1
+	}
+   }
+}

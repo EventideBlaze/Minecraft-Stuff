@@ -1,0 +1,28 @@
+{
+	"powers": [
+		"prism:seethru_hue",
+		"prism:underwater_powers",
+		"prism:underwater_powers_haste",
+		"prism:underwater_powers_breathing",
+		"prism:prismarine_healing",
+		"prism:healing_removal",
+		"prism:natural_regen_removal",
+		"prism:healing_potion_removal",
+		"prism:health_reset",
+		"prism:hunger_prevention",
+		"prism:health_decrease_on_death",
+		"prism:resourcehearts",
+		"prism:hearts",
+		"prism:health_resource_reset",
+		"prism:no_impure_armors",
+		"prism:lightning_vulnerability",
+		"prism:sleep_underwater",
+		"prism:sonic_blast",
+		"prism:drying_out"
+	],
+	"icon": "minecraft:dark_prismarine",
+	"order": 10,
+	"impact": 3,
+	"name": "Prism of the Seas",
+	"description": "A spectral remnant of an ancient aquatic race, the Prism is a being of pure water energy. Once rulers of the ocean, they were driven to near-extinction by their own Guardians, and seek to reclaim their lost power."
+}

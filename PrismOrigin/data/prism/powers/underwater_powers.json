@@ -1,0 +1,16 @@
+{
+    "type": "origins:conditioned_attribute",
+    "name": "Underwater Adaptations",
+    "description": "You were born to be in the water. You move faster, see better, and can breathe below the waves. Rain does not count, for it is impure compared to the waters of your old home.",
+    "modifier": {
+        "attribute": "additionalentityattributes:water_speed",
+        "operation": "addition",
+        "value": 0.05,
+        "name": "Increased swimming speed"
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:submerged_in",
+	"fluid": "minecraft:water"
+    }
+}

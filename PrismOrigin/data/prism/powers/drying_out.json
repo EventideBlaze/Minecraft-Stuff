@@ -1,0 +1,74 @@
+{
+   "name": "Drying Out",
+   "description": "Your body isn't used to being on land for extended periods of time. If you spend too long without soaking in water, you'll start taking damage as your body begins to crack and weaken.",
+   "type": "origins:multiple",
+
+   "wetresource": {
+	"type": "origins:resource",
+	"min": 0,
+	"max": 120,
+	"hud_render": {
+	   "should_render": true,
+	   "sprite location": "origins:textures/gui/community/spirderkolo/resource_bar_01.png",
+	   "bar_index": 5
+	}
+   },
+
+   "wetresource-decrease": {
+	"type": "origins:action_over_time",
+	"entity_action": {
+	   "type": "origins:change_resource",
+	   "resource": "prism:drying_out_wetresource",
+	   "change": -1
+	},
+	"interval": 20,
+	"condition": {
+	   "type": "origins:in_block",
+	   "block_condition": {
+		"type": "origins:fluid",
+		"fluid_condition": {
+		   "type": "origins:in_tag",
+		   "tag": "minecraft:water"
+		}
+	   },
+	   "inverted": true
+	}
+   },
+
+   "wetresource-reset": {
+	"type": "origins:action_over_time",
+	"entity_action": {
+	   "type": "origins:change_resource",
+	   "resource": "prism:drying_out_wetresource",
+	   "operation": "set",
+	   "change": 2400
+	},
+	"interval": 20,
+	"condition": {
+	   "type": "origins:in_block",
+	   "block_condition": {
+		"type": "origins:fluid",
+		"fluid_condition": {
+		   "type": "origins:in_tag",
+		   "tag": "minecraft:water"
+		}
+	   }
+	}
+   },
+
+   "punishment": {
+	"type": "origins:action_over_time",
+	"entity_action": {
+	   "type": "origins:damage",
+	   "damage_type": "minecraft:wither",
+	   "amount": 1
+	},
+	"interval": 30,
+	"condition": {
+	   "type": "origins:resource",
+	   "resource": "prism:drying_out_wetresource",
+	   "comparison": "==",
+	   "compare_to": 0
+	}
+   }
+}

@@ -1,0 +1,73 @@
+{
+   "name": "Rejection of Impurity",
+   "description": "Your body, glass-like and pure, rejects any impure metals places upon it. Natural armors are not affected in such a way, and neither are the pure diamonds deep in the Earth, but your body refuses any other.",
+   "type": "origins:restrict_armor",
+   "head": {
+	"type": "origins:ingredient",
+	"ingredient": [
+	   {
+		"item": "chainmail_helmet"
+	   },
+	   {
+		"item": "iron_helmet"
+	   },
+	   {
+		"item": "golden_helmet"
+	   },
+	   {
+		"item": "netherite_helmet"
+	   }
+	]
+   },
+   "chest": {
+	"type": "origins:ingredient",
+	"ingredient": [
+	   {
+		"item": "chainmail_chestplate"
+	   },
+	   {
+		"item": "iron_chestplate"
+	   },
+	   {
+		"item": "golden_chestplate"
+	   },
+	   {
+		"item": "netherite_chestplate"
+	   }
+	]
+   },
+   "legs": {
+	"type": "origins:ingredient",
+	"ingredient": [
+	   {
+		"item": "chainmail_leggings"
+	   },
+	   {
+		"item": "iron_leggings"
+	   },
+	   {
+		"item": "golden_leggings"
+	   },
+	   {
+		"item": "netherite_leggings"
+	   }
+	]
+   },
+   "feet": {
+	"type": "origins:ingredient",
+	"ingredient": [
+	   {
+		"item": "chainmail_boots"
+	   },
+	   {
+		"item": "iron_boots"
+	   },
+	   {
+		"item": "golden_boots"
+	   },
+	   {
+		"item": "netherite_boots"
+	   }
+	]
+   }
+}

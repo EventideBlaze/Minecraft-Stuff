@@ -1,0 +1,27 @@
+{
+   "name": "An Affinity for Prismarine",   
+   "description": "You have an inexplicable connection with the dark tiles of prismarine. Near it, you are healed. But you must be close, and you can gain health no other way.",
+   "type": "origins:action_over_time",
+   "entity_action": {
+	"type": "origins:apply_effect",
+	"effect": {
+	   "effect": "minecraft:regeneration",
+	   "duration": 100,
+	   "is_ambient": false,
+	   "show_particles": false,
+	   "show_icon": true
+	}
+   },
+   "interval": 20,
+   "condition": {
+	"type": "origins:block_in_radius",
+	"block_condition": {
+	   "type": "origins:block",
+	   "block": "minecraft:dark_prismarine"
+	},
+	"radius": 1,
+	"shape": "cube",
+	"comparison": ">",
+	"compare_to": 0
+   }
+}

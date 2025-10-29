@@ -1,0 +1,48 @@
+{
+   "name": "The Sound of Glass",
+   "description": "Your unique compostion has made it possible for sound to travel through your body exceptionally quickly. Combined with the destruction of a particular shard, you can amplify this shattering, and knock your enemies away.",
+   "type": "origins:active_self",
+   "entity_action": {
+	"type": "origins:and",
+	"actions": [
+	{
+	   "type": "origins:area_of_effect",
+	   "radius": 6,
+	   "shape": "sphere",
+	   "bientity_action": {
+		"type": "origins:add_velocity",
+		"y": 2,
+		"z": 3
+	   }
+	},
+	{
+	   "type": "origins:equipped_item_action",
+		"equipment_slot": "mainhand",
+		"action": {
+		   "type": "origins:consume",
+                   "amount": 1
+                }
+	}
+	]
+   },
+   "cooldown": 1000,
+   "hud_render": {
+	"should_render": true,
+	"sprite_location": "origins:textures/gui/community/spirderkolo/resource_bar_01.png",
+	"bar_index": 5
+   },
+   "key": {
+	"key": "key.use",
+	"continuous": false
+   },
+   "condition": {
+	"type": "origins:equipped_item",
+	"equipment_slot": "mainhand",
+	"item_condition": {
+	   "type": "origins:ingredient",
+	   "ingredient": {
+		"item": "minecraft:prismarine_shard"
+	   }
+	}
+   }
+}

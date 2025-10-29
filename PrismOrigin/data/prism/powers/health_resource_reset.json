@@ -1,0 +1,28 @@
+{
+   "hidden": true,
+   "type": "origins:self_action_on_kill",
+   "entity_action": {
+	"type": "origins:if_else",
+   	"condition": {
+	   "type": "origins:resource",
+	   "resource": "prism:resourcehearts",
+	   "comparison": "<",
+	   "compare_to": 10
+	},
+	"if_action": {
+	   "type": "origins:execute_command",
+	   "command": "resource set @s prism:resourcehearts 10",
+	   "permission_level": 4
+	}
+   },
+   "cooldown": 3000,
+   "hud_render": {
+	"should_render": false,
+	"sprite_location": "origins:textures/gui/community/spirderkolo/resource_bar_01.png",
+	"bar_index": 5
+   },
+   "target_condition": {
+	"type": "origins:entity_type",
+	"entity_type": "minecraft:elder_guardian"
+   }
+}

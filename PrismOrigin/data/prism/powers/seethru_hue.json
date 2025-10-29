@@ -1,0 +1,9 @@
+{
+	"type": "origins:model_color",
+	"red": 1,
+	"green": 1,
+	"blue": 1,
+	"alpha": 0.7,
+	"name": "See-Through Hue",
+	"description": "You're partially see-through, as if your skin were made of glass."
+}

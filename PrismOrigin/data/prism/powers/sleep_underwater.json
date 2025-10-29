@@ -1,0 +1,11 @@
+{
+   "name": "Risking Sleep",
+   "description": "You, like many others, do not require sleep. But if you were to sleep, it must be in a place where you won't dry out while unconscious.",
+   "type": "origins:prevent_sleep",
+   "message": "It's too dry for you to risk sleeping here.",
+   "condition": {
+	"type": "origins:submerged_in",
+	"fluid": "minecraft:water",
+	"inverted": true
+   }
+}
